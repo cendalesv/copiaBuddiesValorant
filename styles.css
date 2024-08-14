@@ -1,9 +1,9 @@
-/* Asegúrate de que el <body> use Flexbox y que ocupe toda la altura de la pantalla */
+
 body {
     font-family: Arial, sans-serif;
     display: flex;
     flex-direction: column;
-    min-height: 100vh; /* Asegura que el body tenga al menos la altura de la ventana del navegador */
+    min-height: 100vh; 
     margin: 0;
 }
 
@@ -28,7 +28,7 @@ header {
 }
 
 main {
-    flex: 1; /* Permite que el contenedor principal crezca para llenar el espacio disponible */
+    flex: 1; 
 }
 
 footer {
@@ -60,13 +60,13 @@ footer p {
 }
 
 #content-container {
-    flex: 1; /* Permite que el contenedor principal crezca para llenar el espacio disponible */
+    flex: 1; 
 }
 
 .card {
-    height: 100%; /* Asegura que la tarjeta ocupe toda la altura disponible */
+    height: 100%; 
     display: flex;
-    flex-direction: column; /* Coloca el contenido verticalmente */
+    flex-direction: column; 
     background-color: rgba(0, 0, 0, 0.7);
     color: white;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -87,14 +87,14 @@ footer p {
 }
 
 .card-body {
-    flex: 1; /* Permite que el contenido crezca para llenar el espacio */
+    flex: 1; 
     display: flex;
     flex-direction: column;
-    justify-content: space-between; /* Asegura que el botón se mantenga al final */
+    justify-content: space-between; 
 }
 
 .card-title {
-    margin-bottom: 1rem; /* Añade espacio debajo del título */
+    margin-bottom: 1rem; 
 }
 
 #card-count {
