@@ -1191,22 +1191,23 @@ footer p {
   }
 }
 
+/* estilos modal */
+
 .thumbnail {
     width: 70px;
     height: 40px;
 }
 
-/* Cambiar el fondo del modal */
 .modal-content {
-    background-color: rgba(0, 0, 0, 0.8); /* Fondo negro semi-transparente */
-    border: none; /* Sin bordes */
-    color: white; /* Texto blanco */
+    background-color: rgba(0, 0, 0, 0.8);
+    border: none;
+    color: white;
 }
 
 .modal-body {
-    background-color: rgba(255, 255, 255, 0.1); /* Fondo blanco semi-transparente */
-    padding: 20px; /* Espaciado interno */
-    border-radius: 8px; /* Bordes redondeados */
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 8px;
 }
 
 
